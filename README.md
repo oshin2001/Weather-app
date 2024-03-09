@@ -1,6 +1,14 @@
 ## Live Demo 
 https://weather-app3-pgtd.onrender.com/
 
+## About the app
+1. Users can input the name of a city they want to get weather information for. The search icon triggers the search function when clicked.
+2. The component displays the current weather information for the searched city, including temperature, location, humidity, and wind speed.
+3. The weather condition is depicted using different weather icons based on the data received from the OpenWeatherMap API. Icons such as cloud, drizzle, rain, snow, etc., are displayed according to the weather conditions.
+4. The component fetches weather data from the OpenWeatherMap API using the provided API key. It then updates the weather information and icons accordingly.
+5. When a user searches for a city, the component dynamically updates the weather information and icons without the need for a page reload.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
